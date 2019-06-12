@@ -1,0 +1,13 @@
+debug       : true
+secret_key  : 'Ys#AeLq$Zk&c'
+
+webdriver:
+  path: lib/chromedriver
+
+pony_orm:
+
+  provider  : mysql
+  host      : localhost
+  user      : root
+  passwd    : root
+  db        : hawrus
