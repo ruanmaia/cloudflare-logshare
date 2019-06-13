@@ -1,9 +1,3 @@
-debug       : true
-secret_key  : 'Ys#AeLq$Zk&c'
-
-webdriver:
-  path: lib/chromedriver
-
 pony_orm:
 
   provider  : mysql
@@ -11,3 +5,11 @@ pony_orm:
   user      : root
   passwd    : root
   db        : hawrus
+
+source:
+  type: local
+  path: /home/rmaia/Documentos/Projetos/infra/code/cloudflare-logshare/data/input
+
+destination:
+  type: local
+  path: /home/rmaia/Documentos/Projetos/infra/code/cloudflare-logshare/data/output

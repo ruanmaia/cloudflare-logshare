@@ -105,3 +105,7 @@ venv.bak/
 
 # VS Code project settings
 .vscode
+
+# Data directories
+data/
+tmp/
