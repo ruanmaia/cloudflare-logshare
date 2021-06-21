@@ -12,7 +12,7 @@ with open(BASE_PATH + '/../config.yml') as r:
     config = yaml.safe_load(r.read())
 
 #### DATABASE CONFIGURATION
-from pony.orm import Database
+#from pony.orm import Database
 
 # db = Database()
 # db.bind(**config['pony_orm'])

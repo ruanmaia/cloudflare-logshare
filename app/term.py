@@ -12,7 +12,7 @@ from tqdm import tqdm
 from app import cli, config
 
 # IMPORT PONY ORM STATEMENTS
-from pony.orm import *
+#from pony.orm import *
 
 #### CLI COMMANDS
 @cli.command('run')
