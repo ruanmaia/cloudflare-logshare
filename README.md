@@ -1,2 +1,2 @@
 # cloudflare-logshare
-A project fucused on get cloudflare CDN logs and export to another formats like AWS alb, S3, SQLite, MySQL, PostgreSQL, CSV, etc.
+A project focused on getting cloudflare CDN logs, and exporting to other formats like AWS, alb, S3, SQLite, MySQL, PostgreSQL, CSV, etc.
